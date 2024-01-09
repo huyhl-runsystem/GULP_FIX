@@ -1,0 +1,412 @@
+@media screen and (max-width: 1280px) {
+  .header-container {
+    .header {
+      .search-container {
+        top: 12%;
+        right: 2%;
+      }
+    }
+    .sliders-item {
+      .slider-text {
+        h1 {
+          font-size: 70px;
+        }
+      }
+    }
+  }
+
+  .our-stats {
+    .info-box {
+      width: 1000px;
+      left: 50%;
+    }
+  }
+
+  .about-us {
+    .text-about-us {
+      top: 15%;
+      h2 {
+        margin: 0;
+      }
+    }
+    .timer-yoga {
+      .schedule-yoga {
+        display: none;
+        // .text-box {
+        //   width: 350px;
+        // }
+      }
+
+      .schedule-yoga.daily,
+      .schedule-yoga.weekly {
+        display: flex;
+      }
+    }
+    .nav-buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      z-index: 2;
+      button {
+        background: none;
+        border: none;
+        .icon-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #ffffff;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+        }
+        i {
+          font-size: 30px;
+          color: #464159;
+        }
+      }
+    }
+  }
+
+  .best-instructor {
+    .content-of-img {
+      box-sizing: border-box;
+      overflow: hidden;
+      padding: 40px;
+      gap: 30px;
+      .text-best-new {
+        padding: 0;
+        margin: 10px;
+        h2 {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+
+  .new-experiece {
+    .content-of-img {
+      padding: 50px;
+      gap: 60px;
+      .text-best-new {
+        padding: 0;
+        h2 {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+
+  .pricing {
+    padding: 20px;
+    .prizes-container {
+      align-items: center;
+      justify-content: center;
+      .prize {
+        display: none;
+        width: 380px;
+      }
+      .prize.gold,
+      .prize.platinum {
+        display: flex;
+      }
+    }
+    .navigation-buttons {
+      display: block;
+    }
+  }
+
+  .our-update {
+    .text-our-update {
+      h2 {
+        font-size: 60px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    .footer-text {
+      p {
+        width: 800px;
+      }
+    }
+    .list-infor {
+      .list-follow {
+        .icon-group {
+          div {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header-container {
+    .header {
+      .menu-header {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 700px;
+      }
+    }
+    .sliders-item {
+      .slider-text {
+        width: 700px;
+        top: 45%;
+        left: 50%;
+        h1 {
+          font-size: 40px;
+          margin: 0;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .btn-register {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      button {
+        width: 222px;
+        height: 45px;
+        font-size: 20px;
+      }
+    }
+  }
+  .our-stats {
+    .text-our-stats {
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 20px;
+        width: 700px;
+      }
+    }
+    .info-box {
+      width: 700px;
+      left: 50%;
+      h3 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  .about-us {
+    .text-about-us {
+      top: 10%;
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        width: 700px;
+        font-size: 20px;
+      }
+    }
+    .timer-yoga {
+      top: 60%;
+      .schedule-yoga {
+        .img-of-yoga {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .text-box {
+          h6 {
+            margin: 10px;
+          }
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .best-instructor {
+    .content-of-img {
+      gap: 30px;
+      .text-best-new {
+        padding: 0;
+        margin: 10px;
+        h2 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 20px;
+          padding: 0;
+        }
+        button {
+          width: 222px;
+          height: 45px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .new-experiece {
+    .img-best-new {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .content-of-img {
+      padding: 40px;
+      gap: 40px;
+      .text-best-new {
+        padding: 0;
+        h2 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 20px;
+          color: #464159;
+          text-align: left;
+          margin: 30px 0 60px;
+          hyphens: auto;
+          padding: 0;
+        }
+        button {
+          width: 222px;
+          height: 45px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .pricing {
+    .text-pricing {
+      margin-bottom: 40px;
+      h2 {
+        font-size: 40px;
+        padding: 0;
+        margin: 0 auto;
+      }
+      p {
+        font-size: 20px;
+        margin: 0 40px;
+      }
+    }
+    .prizes-container {
+      .prize {
+        h5 {
+          margin: 10px;
+        }
+        h6 {
+          margin: 10px;
+        }
+        p {
+          font-size: 20px;
+          margin: 10px;
+        }
+        button {
+          width: 222px;
+          height: 45px;
+          font-size: 20px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+  .leona-woods {
+    .text-leona {
+      top: 10%;
+      left: 10%;
+      h4 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  .our-update {
+    .text-our-update {
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 20px;
+        margin: 0;
+      }
+      .subscribe-box {
+        input {
+          width: 289px;
+          height: 43px;
+          padding: 0 10px;
+          font-size: 20px;
+        }
+        button {
+          width: 122px;
+          height: 45px;
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    .footer-text {
+      h4 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 20px;
+        width: 700px;
+        margin: 10px 0;
+      }
+    }
+    .list-infor {
+      ul {
+        li {
+          margin-bottom: 10px;
+        }
+        h4 {
+          font-size: 28px;
+          margin-bottom: 10px;
+        }
+        a {
+          font-size: 20px;
+        }
+      }
+      .list-follow {
+        .icon-group {
+          div {
+            margin-left: 0px;
+            .icon {
+              margin-right: 5px;
+            }
+            span {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

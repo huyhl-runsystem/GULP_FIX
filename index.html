@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/style-laptop.css" />
+    <link rel="stylesheet" href="dist/css/style-tablet.css" />
+    <link rel="stylesheet" href="dist/css/style-mobile.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="img-header">
+        <img src="dist/assets/images/yogaku1.png" alt="Yogaku Image" />
+      </div>
+      <div class="overlay"></div>
+      <header class="header">
+        <div class="logo-lotus">
+          <img src="dist/assets/images/logo-lotus.png" alt="Logo Lotus" />
+        </div>
+        <div class="menu-header">
+          <button class="toggle-button" onclick="toggleMenu()">☰ Menu</button>
+          <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Promo</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="search-container" id="search-container">
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="Type your search here..."
+          />
+          <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        </div>
+      </header>
+      <div class="sliders-item">
+        <div class="slider-text">
+          <h1>New Experience</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+        </div>
+        <div class="slider-text">
+          <h1>New Experience</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+        </div>
+        <div class="slider-text">
+          <h1>New Experience</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+        </div>
+      </div>
+      <div class="btn-register">
+        <button>REGISTER NOW</button>
+      </div>
+      <div class="dots-box"></div>
+    </div>
+
+    <div class="our-stats">
+      <div class="img-our-stats">
+        <img src="dist/assets/images/yogaku2.png" alt="Our Stats" />
+      </div>
+      <div class="overlay"></div>
+      <div class="text-our-stats">
+        <h2>Our Stats</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+      </div>
+      <div class="info-box">
+        <div>
+          <h3>1.534</h3>
+          <p>Active Members</p>
+        </div>
+        <div>
+          <h3>99</h3>
+          <p>Yoga Country</p>
+        </div>
+        <div>
+          <h3>150</h3>
+          <p>Workshop</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us">
+      <div class="img-about-us">
+        <img src="dist/assets/images/shape.png" alt="About Us" />
+      </div>
+      <div class="text-about-us">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+      </div>
+      <div class="timer-yoga">
+        <div class="schedule-yoga daily">
+          <div class="img-of-yoga">
+            <img src="dist/assets/images/daily-yoga.png" alt="Daily Yoga" />
+          </div>
+          <div class="text-box">
+            <h6>Daily Yoga</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="schedule-yoga weekly">
+          <div class="img-of-yoga">
+            <img src="dist/assets/images/weekly-yoga.png" alt="Weekly Yoga" />
+          </div>
+          <div class="text-box">
+            <h6>Weekly Yoga</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="schedule-yoga monthly">
+          <div class="img-of-yoga">
+            <img src="dist/assets/images/monthly-yoga.png" alt="Monthly Yoga" />
+          </div>
+          <div class="text-box">
+            <h6>Monthly Yoga</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn-prev" onclick="moveSlider(-1)">
+          <div class="icon-wrapper">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+        </button>
+        <button class="btn-next" onclick="moveSlider(1)">
+          <div class="icon-wrapper">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="best-instructor">
+      <div class="img-best-new">
+        <img src="dist/assets/images/shape-left.png" alt="Shape Left" />
+      </div>
+      <div class="content-of-img">
+        <div class="text-best-new">
+          <h2>Best Instructor</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+          <button>READ MORE</button>
+        </div>
+        <div class="image-best-new">
+          <img
+            src="dist/assets/images/best-instructor.png"
+            alt="Best Instructor"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="new-experiece">
+      <div class="img-best-new">
+        <img src="dist/assets/images/shape-right.png" alt="Shape Right" />
+      </div>
+      <div class="content-of-img">
+        <div class="image-best-new">
+          <img src="dist/assets/images/new-experiece.png" alt="New Experiece" />
+        </div>
+        <div class="text-best-new">
+          <h2>New Experiece</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+          <button>READ MORE</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing">
+      <div class="text-pricing">
+        <h2>Pricing</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+      </div>
+      <div class="prizes-container">
+        <div class="prize bronze">
+          <h5>Bronze</h5>
+          <img src="dist/assets/images/Icon.png" alt="Icon" />
+          <h6>$105.00</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Order Now</button>
+        </div>
+        <div class="prize gold">
+          <h5>Gold</h5>
+          <img src="dist/assets/images/Icon.png" alt="Icon" />
+          <h6>$200.00</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Order Now</button>
+        </div>
+        <div class="prize platinum">
+          <h5>Platinum</h5>
+          <img src="dist/assets/images/Icon.png" alt="Icon" />
+          <h6>$250.00</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Order Now</button>
+        </div>
+      </div>
+      <div class="navigation-buttons">
+        <button class="button-prev" onclick="movePrize(-1)">
+          <div class="icon-wrapper">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+        </button>
+        <button class="button-next" onclick="movePrize(1)">
+          <div class="icon-wrapper">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="leona-woods">
+      <div class="img-leona">
+        <img src="dist/assets/images/leona_woods.png" alt="Leona Woods" />
+      </div>
+      <div class="overlay"></div>
+      <div class="text-leona">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <h4>- Leona Woods</h4>
+      </div>
+    </div>
+
+    <div class="our-update">
+      <div class="img-our-update">
+        <img src="dist/assets/images/lotus-bg.png" alt="Our Update" />
+      </div>
+      <div class="text-our-update">
+        <h2>Don't miss our update</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <div class="subscribe-box">
+          <input type="email" placeholder="Your Email" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-text">
+        <h4>Yogaku</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam at
+          dignissim nunc,id maximus ex. Etiam nec dignissim elit, at dignissim
+          enim.
+        </p>
+      </div>
+      <div class="list-infor">
+        <ul class="list-about">
+          <li>
+            <a><h4>About</h4></a>
+          </li>
+          <li><a>History</a></li>
+          <li><a>Our Team</a></li>
+          <li><a>Brand Guidelines</a></li>
+          <li><a>Terms & Condition</a></li>
+          <li><a>Privacy Policy</a></li>
+        </ul>
+        <ul class="list-services">
+          <li>
+            <a><h4>Services</h4></a>
+          </li>
+          <li><a>How to Order</a></li>
+          <li><a>Our Product</a></li>
+          <li><a>Order Status</a></li>
+          <li><a>Promo</a></li>
+          <li><a>Payment Method</a></li>
+        </ul>
+        <ul class="list-follow">
+          <li>
+            <a><h4>Follow</h4></a>
+          </li>
+          <div class="icon-group">
+            <div>
+              <li class="icon">
+                <a>
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+              </li>
+              <span>Facebook</span>
+            </div>
+            <div>
+              <li class="icon">
+                <a><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <span>Twitter</span>
+            </div>
+            <div>
+              <li class="icon">
+                <a><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <span>Instagram</span>
+            </div>
+            <div>
+              <li class="icon">
+                <a><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <span>Whatsapp</span>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+    <script>
+      function toggleMenu() {
+        var menuList = document.querySelector(".menu-list");
+        menuList.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
