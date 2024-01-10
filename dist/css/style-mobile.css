@@ -1,0 +1,334 @@
+@media screen and (max-width: 424px) {
+  .header-container .header .logo-lotus {
+    top: 5%;
+    left: 5%;
+  }
+  .header-container .header .logo-lotus img {
+    width: 50%;
+    height: auto;
+  }
+  .header-container .header .menu-header {
+    top: 30%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 70px;
+  }
+  .header-container .header .menu-header .toggle-button {
+    display: block;
+    font-size: 14px;
+  }
+  .header-container .header .menu-header .menu-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: #c7f0db;
+    padding: 2px;
+  }
+  .header-container .header .menu-header .menu-list li {
+    margin-right: 0px;
+  }
+  .header-container .header .menu-header .menu-list li a {
+    text-decoration: none;
+    color: #594149;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .header-container .header .menu-header .menu-list.show {
+    display: flex;
+  }
+  .header-container .header .search-container {
+    position: absolute;
+    top: 8%;
+    right: 4%;
+    display: flex;
+    align-items: center;
+  }
+  .header-container .header .search-container .search-input {
+    display: none;
+    width: 150px;
+    height: 18px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #c7f0db;
+    border: none;
+  }
+  .header-container .header .search-container .show {
+    display: block;
+  }
+  .header-container .header .search-container #search-icon {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .header-container .sliders-item .slider-text {
+    width: 300px;
+    top: 50%;
+    left: 50%;
+  }
+  .header-container .sliders-item .slider-text h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .header-container .sliders-item .slider-text p {
+    font-size: 10px;
+  }
+  .header-container .btn-register {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-container .btn-register button {
+    width: 122px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .header-container .dots-box {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-container .dots-box .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #c7f0db;
+    opacity: 0.5;
+    display: inline-block;
+    margin: 0 2px;
+  }
+  .header-container .dots-box .dot.active {
+    background-color: #464159;
+    opacity: 1;
+  }
+  .our-stats .text-our-stats h2 {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .our-stats .text-our-stats p {
+    font-size: 10px;
+    width: 300px;
+  }
+  .our-stats .info-box {
+    width: 300px;
+    left: 50%;
+  }
+  .our-stats .info-box h3 {
+    font-size: 16px;
+  }
+  .our-stats .info-box p {
+    font-size: 10px;
+  }
+  .about-us .text-about-us {
+    top: 12%;
+  }
+  .about-us .text-about-us h2 {
+    font-size: 18px;
+  }
+  .about-us .text-about-us p {
+    width: 300px;
+    font-size: 10px;
+  }
+  .about-us .timer-yoga {
+    top: 60%;
+  }
+  .about-us .timer-yoga .schedule-yoga .img-of-yoga img {
+    width: 50%;
+    height: auto;
+  }
+  .about-us .timer-yoga .schedule-yoga .text-box h6 {
+    font-size: 12px;
+    margin: 10px;
+  }
+  .about-us .timer-yoga .schedule-yoga .text-box p {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .about-us .nav-buttons button .icon-wrapper {
+    width: 40px;
+    height: 40px;
+  }
+  .about-us .nav-buttons button i {
+    font-size: 20px;
+  }
+  .best-instructor .content-of-img {
+    gap: 10px;
+    padding: 20px;
+  }
+  .best-instructor .content-of-img .text-best-new {
+    padding: 0;
+    margin: 10px;
+  }
+  .best-instructor .content-of-img .text-best-new h2 {
+    font-size: 18px;
+  }
+  .best-instructor .content-of-img .text-best-new p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  .best-instructor .content-of-img .text-best-new button {
+    width: 82px;
+    height: 25px;
+    font-size: 12px;
+    margin: 10px auto;
+  }
+  .new-experiece .img-best-new img {
+    width: 100%;
+    height: auto;
+  }
+  .new-experiece .content-of-img {
+    padding: 30px;
+    gap: 30px;
+  }
+  .new-experiece .content-of-img .text-best-new {
+    padding: 0;
+  }
+  .new-experiece .content-of-img .text-best-new h2 {
+    font-size: 18px;
+  }
+  .new-experiece .content-of-img .text-best-new p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .new-experiece .content-of-img .text-best-new button {
+    width: 82px;
+    height: 25px;
+    font-size: 12px;
+    margin: 10px auto;
+  }
+  .pricing .text-pricing {
+    margin-bottom: 10px;
+  }
+  .pricing .text-pricing h2 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .pricing .text-pricing p {
+    font-size: 10px;
+    margin: 5px;
+  }
+  .pricing .prizes-container .prize {
+    width: 200px;
+  }
+  .pricing .prizes-container .prize h5 {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .pricing .prizes-container .prize h6 {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .pricing .prizes-container .prize p {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 200px;
+  }
+  .pricing .prizes-container .prize button {
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    word-spacing: normal;
+    margin: 10px;
+  }
+  .pricing .navigation-buttons .button-prev .icon-wrapper,
+  .pricing .navigation-buttons .button-next .icon-wrapper {
+    width: 30px;
+    height: 30px;
+  }
+  .pricing .navigation-buttons .button-prev i,
+  .pricing .navigation-buttons .button-next i {
+    font-size: 16px;
+  }
+  .leona-woods .text-leona {
+    top: 10%;
+    left: 10%;
+  }
+  .leona-woods .text-leona h4 {
+    font-size: 12px;
+  }
+  .leona-woods .text-leona p {
+    font-size: 10px;
+  }
+  .our-update .text-our-update {
+    top: 12%;
+  }
+  .our-update .text-our-update h2 {
+    font-size: 18px;
+  }
+  .our-update .text-our-update p {
+    font-size: 10px;
+    margin: 0;
+  }
+  .our-update .text-our-update .subscribe-box input {
+    width: 100px;
+    height: 33px;
+    padding: 0 10px;
+    font-size: 12px;
+    margin: 10px 0;
+  }
+  .our-update .text-our-update .subscribe-box button {
+    width: 75px;
+    height: 31px;
+    font-size: 12px;
+    padding: 0;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-text h4 {
+    font-size: 16px;
+  }
+  .footer .footer-text p {
+    font-size: 12px;
+    width: 300px;
+    margin: 10px 0;
+  }
+  .footer .list-infor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    gap: 10px;
+  }
+  .footer .list-infor ul h4 {
+    font-size: 16px;
+  }
+  .footer .list-infor ul li {
+    margin: 5px;
+  }
+  .footer .list-infor .list-about,
+  .footer .list-infor .list-services,
+  .footer .list-infor .list-follow {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  .footer .list-infor .list-follow li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .footer .list-infor .list-follow .list-follow .icon {
+    margin-right: 10px;
+  }
+  .footer .list-infor .list-follow .icon-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .footer .list-infor .list-follow .icon-group div {
+    display: flex;
+    align-items: center;
+  }
+}

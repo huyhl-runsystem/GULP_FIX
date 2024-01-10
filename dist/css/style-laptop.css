@@ -1,0 +1,320 @@
+@media screen and (max-width: 1280px) {
+  .header-container .header .search-container {
+    top: 12%;
+    right: 2%;
+  }
+  .header-container .sliders-item .slider-text h1 {
+    font-size: 70px;
+  }
+  .our-stats .info-box {
+    width: 1000px;
+    left: 50%;
+  }
+  .about-us .text-about-us {
+    top: 15%;
+  }
+  .about-us .text-about-us h2 {
+    margin: 0;
+  }
+  .about-us .timer-yoga .schedule-yoga {
+    display: none;
+  }
+  .about-us .timer-yoga .schedule-yoga.daily,
+  .about-us .timer-yoga .schedule-yoga.weekly {
+    display: flex;
+  }
+  .about-us .nav-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  .about-us .nav-buttons button {
+    background: none;
+    border: none;
+  }
+  .about-us .nav-buttons button .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  .about-us .nav-buttons button i {
+    font-size: 30px;
+    color: #464159;
+  }
+  .best-instructor .content-of-img {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 40px;
+    gap: 30px;
+  }
+  .best-instructor .content-of-img .text-best-new {
+    padding: 0;
+    margin: 10px;
+  }
+  .best-instructor .content-of-img .text-best-new h2 {
+    font-size: 60px;
+  }
+  .new-experiece .content-of-img {
+    padding: 50px;
+    gap: 60px;
+  }
+  .new-experiece .content-of-img .text-best-new {
+    padding: 0;
+  }
+  .new-experiece .content-of-img .text-best-new h2 {
+    font-size: 60px;
+  }
+  .pricing {
+    padding: 20px;
+  }
+  .pricing .prizes-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .pricing .prizes-container .prize {
+    display: none;
+    width: 380px;
+  }
+  .pricing .prizes-container .prize.gold,
+  .pricing .prizes-container .prize.platinum {
+    display: flex;
+  }
+  .pricing .navigation-buttons {
+    display: block;
+  }
+  .our-update .text-our-update h2 {
+    font-size: 60px;
+  }
+  .our-update .text-our-update p {
+    margin: 0;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-text p {
+    width: 800px;
+  }
+  .footer .list-infor .list-follow .icon-group div {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .header-container .header .menu-header {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+  }
+  .header-container .sliders-item .slider-text {
+    width: 700px;
+    top: 45%;
+    left: 50%;
+  }
+  .header-container .sliders-item .slider-text h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .header-container .sliders-item .slider-text p {
+    font-size: 20px;
+  }
+  .header-container .btn-register {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-container .btn-register button {
+    width: 222px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .our-stats .text-our-stats h2 {
+    font-size: 40px;
+  }
+  .our-stats .text-our-stats p {
+    font-size: 20px;
+    width: 700px;
+  }
+  .our-stats .info-box {
+    width: 700px;
+    left: 50%;
+  }
+  .our-stats .info-box h3 {
+    font-size: 36px;
+  }
+  .our-stats .info-box p {
+    font-size: 20px;
+  }
+  .about-us .text-about-us {
+    top: 10%;
+  }
+  .about-us .text-about-us h2 {
+    font-size: 40px;
+  }
+  .about-us .text-about-us p {
+    width: 700px;
+    font-size: 20px;
+  }
+  .about-us .timer-yoga {
+    top: 60%;
+  }
+  .about-us .timer-yoga .schedule-yoga .img-of-yoga img {
+    width: 100%;
+    height: auto;
+  }
+  .about-us .timer-yoga .schedule-yoga .text-box h6 {
+    margin: 10px;
+  }
+  .about-us .timer-yoga .schedule-yoga .text-box p {
+    margin: 0;
+  }
+  .best-instructor .content-of-img {
+    gap: 30px;
+  }
+  .best-instructor .content-of-img .text-best-new {
+    padding: 0;
+    margin: 10px;
+  }
+  .best-instructor .content-of-img .text-best-new h2 {
+    font-size: 40px;
+  }
+  .best-instructor .content-of-img .text-best-new p {
+    font-size: 20px;
+    padding: 0;
+  }
+  .best-instructor .content-of-img .text-best-new button {
+    width: 222px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .new-experiece .img-best-new img {
+    width: 100%;
+    height: auto;
+  }
+  .new-experiece .content-of-img {
+    padding: 40px;
+    gap: 40px;
+  }
+  .new-experiece .content-of-img .text-best-new {
+    padding: 0;
+  }
+  .new-experiece .content-of-img .text-best-new h2 {
+    font-size: 40px;
+  }
+  .new-experiece .content-of-img .text-best-new p {
+    font-size: 20px;
+    color: #464159;
+    text-align: left;
+    margin: 30px 0 60px;
+    hyphens: auto;
+    padding: 0;
+  }
+  .new-experiece .content-of-img .text-best-new button {
+    width: 222px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .pricing .text-pricing {
+    margin-bottom: 40px;
+  }
+  .pricing .text-pricing h2 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .pricing .text-pricing p {
+    font-size: 20px;
+    margin: 0 40px;
+  }
+  .pricing .prizes-container .prize h5 {
+    margin: 10px;
+  }
+  .pricing .prizes-container .prize h6 {
+    margin: 10px;
+  }
+  .pricing .prizes-container .prize p {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .pricing .prizes-container .prize button {
+    width: 222px;
+    height: 45px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  .leona-woods .text-leona {
+    top: 10%;
+    left: 10%;
+  }
+  .leona-woods .text-leona h4 {
+    font-size: 20px;
+  }
+  .leona-woods .text-leona p {
+    font-size: 20px;
+  }
+  .our-update .text-our-update h2 {
+    font-size: 40px;
+  }
+  .our-update .text-our-update p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .our-update .text-our-update .subscribe-box input {
+    width: 289px;
+    height: 43px;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+  .our-update .text-our-update .subscribe-box button {
+    width: 122px;
+    height: 45px;
+    font-size: 18px;
+    padding: 0;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-text h4 {
+    font-size: 28px;
+  }
+  .footer .footer-text p {
+    font-size: 20px;
+    width: 700px;
+    margin: 10px 0;
+  }
+  .footer .list-infor ul li {
+    margin-bottom: 10px;
+  }
+  .footer .list-infor ul h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .footer .list-infor ul a {
+    font-size: 20px;
+  }
+  .footer .list-infor .list-follow .icon-group div {
+    margin-left: 0px;
+  }
+  .footer .list-infor .list-follow .icon-group div .icon {
+    margin-right: 5px;
+  }
+  .footer .list-infor .list-follow .icon-group div span {
+    font-size: 20px;
+  }
+}
